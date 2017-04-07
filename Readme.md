@@ -1,4 +1,4 @@
-### [461. Hamming Distance](md/461.Hamming Distance.md)
+### [461. Hamming Distance](md/461.HammingDistance.md)
 ### [476. Number Complement](src/main/java/NumberComplement.java)
 ### [339. Nested List Weight Sum](src/main/java/NestedListWeightSum.java)
 
