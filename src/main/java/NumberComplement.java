@@ -38,10 +38,26 @@ public class NumberComplement {
         int n = 1 - num % 2;
         return n + 2*(num <= 1 ? 0 : findComplement2(num / 2));
     }
+    /**
+     * 从num最低位开始翻转
+     * 当前值小于等于1的时候停止
+     *
+     * @param num
+     * @return
+     */
+    public static int findComplement3(int num) {
+        int temp = num, mask = 1;
+         while(temp > 0){
+                 temp >>= 1;
+                 mask <<= 1;
+             }
+        return ((mask - 1) ^ num);
+    }
 
     public static void main(String[] args) {
         int num = 5;
         System.out.println(findComplement(num));
         System.out.println(findComplement2(num));
+        System.out.println(findComplement3(num));
     }
 }
