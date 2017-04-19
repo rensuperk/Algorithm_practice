@@ -8,25 +8,28 @@ public class ReverseWordsinaStringIII {
      * @return
      */
     public static String soluation(char[] chars){
+        String s = "absd";
+        char[] chars1 = s.toCharArray();
+
         int i=0;
-        int space=0;
-        int spacebefore=0;
-        int mid =0 ;
+        int j = 0;
+        int begin=0;
+        int end=0;
         char temp;
         while ( i < chars.length){
-            if(i >= space){
+            if(i >= end){
                 //前一个空格的位置
-                spacebefore = space;
+                begin = end;
                 //后一个空格的位置
-                space = nextspace(spacebefore,chars);
-                //中间位置
-                mid =spacebefore + (space - spacebefore) / 2;
+                end = nextspace(begin,chars);
+                j = 0;
             }
             //替换
-            if(chars[i] !=' ' && i < (mid)){
+            if(chars[i] !=' ' && j <  (end - begin) / 2){
                 temp = chars[i];
-                chars[i] = chars[2*mid -i];
-                chars[2*mid -i] = temp;
+                chars[i] = chars[end -1  -j];
+                chars[end -1 -j ] = temp;
+                j++;
             }
             i++;
         }
