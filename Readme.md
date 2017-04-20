@@ -5,6 +5,7 @@
 ### [339. Nested List Weight Sum](md/339.NestedListWeightSum.md)
 ### [557. Reverse Words in a String III](md/557.ReverseWordsinaStringIII.md)
 ### [500. Keyboard Row](md/500.KeyboardRow.md)
+### [535. Encode and Decode TinyURL](md/535.EncodeandDecodeTinyURL.md)
 
 
 
