@@ -25,15 +25,16 @@ public class RemoveDuplicatesfromSortedArrayII {
      * @return
      */
     static int removeDuplicatesfromSortedArrayII(int[] nums){
+        if(nums.length <= 2) return nums.length;
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
-            if(i<nums.length -1 && nums[i] == nums[index] && nums[index] == nums[i+1]){
+            if( i>0 &&  i<nums.length -1 && nums[i] == nums[i-1] && nums[index] == nums[i+1]){
                 continue;
             }
-            nums[++index] = nums[i];
+            nums[index++] = nums[i];
         }
 
-        return index+1;
+        return index;
     }
     /**
      * 这个比较简洁，既然是排序的，那么显而易见隔两个数相等，三个数就相等
@@ -43,7 +44,7 @@ public class RemoveDuplicatesfromSortedArrayII {
     static int removeDuplicatesfromSortedArrayII2(int[] nums){
         int index = 2;
         for (int i = 2; i < nums.length; i++) {
-            if(nums[index] != nums[i]){
+            if(nums[index-2] != nums[i]){
                 nums[index++] = nums[i];
             }
         }
