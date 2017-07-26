@@ -12,9 +12,9 @@
 public class RemoveDuplicatesfromSortedArray {
     public static void main(String[] args) {
         int[] ints = {1, 1, 2, 2, 3, 3};
-        int[] array = removeDuplicatesfromSortedArray(ints);
-        for (int arg : array) {
-            System.out.println(arg);
+        int i= removeDuplicatesfromSortedArray2(ints);
+        for (int i1 = 0; i1 < i; i1++) {
+            System.out.println(ints[i1]);
         }
     }
 
