@@ -7,10 +7,10 @@
 ### [500. Keyboard Row](md/500.KeyboardRow.md)
 ### [535. Encode and Decode TinyURL](md/535.EncodeandDecodeTinyURL.md)
 ### [Remove Duplicates from Sorted Array](src/main/java/RemoveDuplicatesfromSortedArray.java)
-### [Remove Duplicates from Sorted Array II]
-### [Search in Rotated Sorted Array]
-### [Search in Rotated Sorted ArrayII]
-### [Median of Two Sorted Arrays]
+### [Remove Duplicates from Sorted Array II](src/main/java/RemoveDuplicatesfromSortedArrayII.java)
+### [Search in Rotated Sorted Array](src/main/java/SearchinRotatedSortedArray.java)
+### [Search in Rotated Sorted ArrayII](src/main/java/SearchinRotatedSortedArrayII.java)
+### [Median of Two Sorted Arrays](src/main/java/MedianofTwoSortedArrays.java)
 
 
 
