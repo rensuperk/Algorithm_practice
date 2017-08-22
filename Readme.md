@@ -14,6 +14,7 @@
 ### [Longest Consecutive Sequence](src/main/java/LongestConsecutiveSequence.java)
 ### [Two Sum](src/main/java/TwoSum.java)
 ### [3Sum](src/main/java/3Sum.java)
+### [3Sum Closest](src/main/java/3SumClosest.java)
 
 
 
