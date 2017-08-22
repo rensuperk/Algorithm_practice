@@ -1,9 +1,8 @@
-import groovy.json.JsonBuilder;
 import groovy.json.JsonOutput;
-import groovy.json.internal.JsonFastParser;
-import jdk.nashorn.internal.ir.debug.JSONWriter;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0?
