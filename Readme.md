@@ -13,6 +13,7 @@
 ### [Median of Two Sorted Arrays](src/main/java/MedianofTwoSortedArrays.java)
 ### [Longest Consecutive Sequence](src/main/java/LongestConsecutiveSequence.java)
 ### [Two Sum](src/main/java/TwoSum.java)
+### [3Sum](src/main/java/3Sum.java)
 
 
 
