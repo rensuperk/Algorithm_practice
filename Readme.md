@@ -6,7 +6,7 @@
 ### [557. Reverse Words in a String III](md/557.ReverseWordsinaStringIII.md)
 ### [500. Keyboard Row](md/500.KeyboardRow.md)
 ### [535. Encode and Decode TinyURL](md/535.EncodeandDecodeTinyURL.md)
-### [Remove Duplicates from Sorted Array]
+### [Remove Duplicates from Sorted Array](src/main/java/RemoveDuplicatesfromSortedArray.java)
 ### [Remove Duplicates from Sorted Array II]
 ### [Search in Rotated Sorted Array]
 ### [Search in Rotated Sorted ArrayII]
