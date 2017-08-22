@@ -11,6 +11,7 @@
 ### [Search in Rotated Sorted Array](src/main/java/SearchinRotatedSortedArray.java)
 ### [Search in Rotated Sorted ArrayII](src/main/java/SearchinRotatedSortedArrayII.java)
 ### [Median of Two Sorted Arrays](src/main/java/MedianofTwoSortedArrays.java)
+### [Longest Consecutive Sequence](src/main/java/LongestConsecutiveSequence.java)
 
 
 
