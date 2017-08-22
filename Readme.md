@@ -13,8 +13,9 @@
 ### [Median of Two Sorted Arrays](src/main/java/MedianofTwoSortedArrays.java)
 ### [Longest Consecutive Sequence](src/main/java/LongestConsecutiveSequence.java)
 ### [Two Sum](src/main/java/TwoSum.java)
-### [3Sum](src/main/java/3Sum.java)
-### [3Sum Closest](src/main/java/3SumClosest.java)
+### [3Sum](src/main/java/ThreeSum.java)
+### [3Sum Closest](src/main/java/ThreeSumClosest.java)
+### [4Sum](src/main/java/FourSum.java)
 
 
 
