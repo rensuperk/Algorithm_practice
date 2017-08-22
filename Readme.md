@@ -16,6 +16,7 @@
 ### [3Sum](src/main/java/ThreeSum.java)
 ### [3Sum Closest](src/main/java/ThreeSumClosest.java)
 ### [4Sum](src/main/java/FourSum.java)
+### [Remove Element](src/main/java/RemoveElement.java)
 
 
 
