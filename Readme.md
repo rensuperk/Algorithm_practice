@@ -6,6 +6,9 @@
 ### [557. Reverse Words in a String III](md/557.ReverseWordsinaStringIII.md)
 ### [500. Keyboard Row](md/500.KeyboardRow.md)
 ### [535. Encode and Decode TinyURL](md/535.EncodeandDecodeTinyURL.md)
+
+##数组
+
 ### [Remove Duplicates from Sorted Array](src/main/java/RemoveDuplicatesfromSortedArray.java)
 ### [Remove Duplicates from Sorted Array II](src/main/java/RemoveDuplicatesfromSortedArrayII.java)
 ### [Search in Rotated Sorted Array](src/main/java/SearchinRotatedSortedArray.java)
@@ -17,6 +20,7 @@
 ### [3Sum Closest](src/main/java/ThreeSumClosest.java)
 ### [4Sum](src/main/java/FourSum.java)
 ### [Remove Element](src/main/java/RemoveElement.java)
+### [Next Permutation](src/main/java/NextPermutation.java)
 
 
 
