@@ -25,6 +25,7 @@
 ### [Valid Sudoku](src/main/java/ValidSudoku.java)
 ### [Trapping Rain Water](src/main/java/TrappingRainWater.java)
 ### [Rotate Image](src/main/java/RotateImage.java)
+### [Plus One](src/main/java/PlusOne.java)
 
 
 
