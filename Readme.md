@@ -21,6 +21,7 @@
 ### [4Sum](src/main/java/FourSum.java)
 ### [Remove Element](src/main/java/RemoveElement.java)
 ### [Next Permutation](src/main/java/NextPermutation.java)
+### [Permutation Sequence](src/main/java/PermutationSequence.java)
 
 
 
