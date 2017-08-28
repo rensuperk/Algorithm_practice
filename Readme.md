@@ -24,6 +24,7 @@
 ### [Permutation Sequence](src/main/java/PermutationSequence.java)
 ### [Valid Sudoku](src/main/java/ValidSudoku.java)
 ### [Trapping Rain Water](src/main/java/TrappingRainWater.java)
+### [Rotate Image](src/main/java/RotateImage.java)
 
 
 
