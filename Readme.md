@@ -31,6 +31,7 @@
 ### [Set Matrix Zeroes](src/main/java/SetMatrixZeroes.java)
 ### [Gas Station](src/main/java/GasStation.java)
 ### [Candy](src/main/java/Candy.java)
+### [Single Number](src/main/java/SingleNumber.java)
 
 
 
