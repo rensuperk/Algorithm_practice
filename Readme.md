@@ -34,6 +34,8 @@
 ### [Single Number](src/main/java/SingleNumber.java)
 ### [Single Number II](src/main/java/SingleNumberII.java)
 
+####发现力不从心的地方很多，我可能有很多的功课需要补足，所以这个专题暂时停止更新
+
 
 
 
