@@ -30,6 +30,7 @@
 ### [Gray Code](src/main/java/GrayCode.java)
 ### [Set Matrix Zeroes](src/main/java/SetMatrixZeroes.java)
 ### [Gas Station](src/main/java/GasStation.java)
+### [Candy](src/main/java/Candy.java)
 
 
 
