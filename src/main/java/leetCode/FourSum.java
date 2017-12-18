@@ -1,8 +1,7 @@
-import groovy.json.JsonOutput;
+package leetCode;import groovy.json.JsonOutput;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
