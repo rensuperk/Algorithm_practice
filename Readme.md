@@ -50,6 +50,10 @@
 ### [替换空格--部分完工](src/main/java/atOffer/ReplaceSpace.java)
 ### [用两个栈实现队列--已完工](src/main/java/atOffer/TwoStackOneList.java)
 ### [旋转数组的最小数字--未完工](src/main/java/atOffer/MinNumberInRotateArray.java)
+### [斐波那契数列](src/main/java/atOffer/Fibonacci.java)
+### [跳台阶](src/main/java/atOffer/JumpFloor.java)
+### [变态跳台阶](src/main/java/atOffer/JumpFloorII.java)
+### [矩形覆盖--未完工](src/main/java/atOffer/RectCover.java)
 
 
 
