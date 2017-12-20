@@ -38,6 +38,19 @@
 
 #### 更新剑指offer的解题
 
+#### 备注 
+    1. 已完工：已完成，不需要修改
+    2. 部分完工：可以实现，但算法待改进
+    3. 未完工：还没有实现
+
+
+### [二维数组中的查找--已完工](src/main/java/atOffer/FindI.java)
+### [重建二叉树--已完工](src/main/java/atOffer/DefinitionForBinaryTree.java)
+### [从尾到头打印链表--部分完工](src/main/java/atOffer/PrintListFromTailToHead.java)
+### [替换空格--部分完工](src/main/java/atOffer/ReplaceSpace.java)
+### [用两个栈实现队列--已完工](src/main/java/atOffer/TwoStackOneList.java)
+### [旋转数组的最小数字--未完工](src/main/java/atOffer/MinNumberInRotateArray.java)
+
 
 
 
