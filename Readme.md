@@ -55,6 +55,7 @@
 ### [矩形覆盖](src/main/java/atOffer/RectCover.java)
 ### [二进制中1的个数](src/main/java/atOffer/NumberOf1.java)
 ### [数值的整数次方](src/main/java/atOffer/Power.java)
+### [调整数组顺序使奇数位于偶数前面](src/main/java/atOffer/ReOrderArray.java)
 
 
 
