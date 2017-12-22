@@ -36,32 +36,32 @@
 
 #### 发现力不从心的地方很多，我可能有很多的功课需要补足，所以这个专题暂时停止更新
 
-#### 更新剑指offer的解题
+## 更新剑指offer的解题
 
 #### 备注 
     1. 部分完工：可以实现，但算法待改进
     2. 未完工：还没有实现
 
 
-## 1. [二维数组中的查找](src/main/java/atOffer/FindI.java)
-## 2. [重建二叉树](src/main/java/atOffer/DefinitionForBinaryTree.java)
-## 3. [从尾到头打印链表--部分完工](src/main/java/atOffer/PrintListFromTailToHead.java)
-## 4. [替换空格--部分完工](src/main/java/atOffer/ReplaceSpace.java)
-## 5. [用两个栈实现队列](src/main/java/atOffer/TwoStackOneList.java)
-## 6. [旋转数组的最小数字--未完工](src/main/java/atOffer/MinNumberInRotateArray.java)
-## 7. [斐波那契数列](src/main/java/atOffer/Fibonacci.java)
-## 8. [跳台阶](src/main/java/atOffer/JumpFloor.java)
-## 9. [变态跳台阶](src/main/java/atOffer/JumpFloorII.java)
-## 10. [矩形覆盖](src/main/java/atOffer/RectCover.java)
-## 11. [二进制中1的个数](src/main/java/atOffer/NumberOf1.java)
-## 12. [数值的整数次方](src/main/java/atOffer/Power.java)
-## 13. [调整数组顺序使奇数位于偶数前面](src/main/java/atOffer/ReOrderArray.java)
-## 14. [链表中倒数第k个结点](src/main/java/atOffer/FindKthToTail.java)
-## 15. [反转链表](src/main/java/atOffer/ReverseList.java)
-## 16. [树的子结构](src/main/java/atOffer/HasSubtree.java)
-## 17. [二叉树的镜像](src/main/java/atOffer/Mirror.java)
-## 18. [顺时针打印矩阵--部分完工](src/main/java/atOffer/PrintMatrix.java)
-## 19. [包含min函数的栈](src/main/java/atOffer/min.java)
+##### 1. [二维数组中的查找](src/main/java/atOffer/FindI.java)
+##### 2. [重建二叉树](src/main/java/atOffer/DefinitionForBinaryTree.java)
+##### 3. [从尾到头打印链表--部分完工](src/main/java/atOffer/PrintListFromTailToHead.java)
+##### 4. [替换空格--部分完工](src/main/java/atOffer/ReplaceSpace.java)
+##### 5. [用两个栈实现队列](src/main/java/atOffer/TwoStackOneList.java)
+##### 6. [旋转数组的最小数字--未完工](src/main/java/atOffer/MinNumberInRotateArray.java)
+##### 7. [斐波那契数列](src/main/java/atOffer/Fibonacci.java)
+##### 8. [跳台阶](src/main/java/atOffer/JumpFloor.java)
+##### 9. [变态跳台阶](src/main/java/atOffer/JumpFloorII.java)
+##### 10. [矩形覆盖](src/main/java/atOffer/RectCover.java)
+##### 11. [二进制中1的个数](src/main/java/atOffer/NumberOf1.java)
+##### 12. [数值的整数次方](src/main/java/atOffer/Power.java)
+##### 13. [调整数组顺序使奇数位于偶数前面](src/main/java/atOffer/ReOrderArray.java)
+##### 14. [链表中倒数第k个结点](src/main/java/atOffer/FindKthToTail.java)
+##### 15. [反转链表](src/main/java/atOffer/ReverseList.java)
+##### 16. [树的子结构](src/main/java/atOffer/HasSubtree.java)
+##### 17. [二叉树的镜像](src/main/java/atOffer/Mirror.java)
+##### 18. [顺时针打印矩阵--部分完工](src/main/java/atOffer/PrintMatrix.java)
+##### 19. [包含min函数的栈](src/main/java/atOffer/min.java)
 
 
 
