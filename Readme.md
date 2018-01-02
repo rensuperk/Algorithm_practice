@@ -63,6 +63,8 @@
 ##### 18. [顺时针打印矩阵--部分完工](src/main/java/atOffer/PrintMatrix.java)
 ##### 19. [包含min函数的栈](src/main/java/atOffer/min.java)
 ##### 20. [栈的压入、弹出序列](src/main/java/atOffer/IsPopOrder.java)
+##### 21. [从上往下打印二叉树](src/main/java/atOffer/PrintFromTopToBottom.java)
+##### 22. [二叉搜索树的后序遍历序列](src/main/java/atOffer/VerifySquenceOfBST.java)
 
 
 
