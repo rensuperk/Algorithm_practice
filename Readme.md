@@ -65,6 +65,9 @@
 ##### 20. [栈的压入、弹出序列](src/main/java/atOffer/IsPopOrder.java)
 ##### 21. [从上往下打印二叉树](src/main/java/atOffer/PrintFromTopToBottom.java)
 ##### 22. [二叉搜索树的后序遍历序列](src/main/java/atOffer/VerifySquenceOfBST.java)
+##### 22. [二叉树中和为某一值的路径](src/main/java/atOffer/FindPath.java)
+##### 22. [复杂链表的复制](src/main/java/atOffer/Clone.java)
+##### 22. [二叉搜索树与双向链表](src/main/java/atOffer/Convert.java)
 
 
 
