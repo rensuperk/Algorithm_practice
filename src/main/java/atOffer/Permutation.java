@@ -15,7 +15,7 @@ public class Permutation {
 
     public static void main(String[] args) {
         Permutation permutation = new Permutation();
-        ArrayList<String> strings = permutation.Permutation("abc");
+        ArrayList<String> strings = permutation.Permutation("aab");
         for (int i = 0; i < strings.size(); i++) {
             System.out.println(JsonOutput.toJson(strings.get(i)));
         }
@@ -32,7 +32,7 @@ public class Permutation {
      */
     public ArrayList<String> Permutation(String str) {
         ArrayList<String> strings = new ArrayList<>();
-        if (str  == null){
+        if (str  == null || str.equals("") ){
             return strings;
         }
         String temp = str;
@@ -44,17 +44,18 @@ public class Permutation {
          return strings;
     }
     public void PermutationHelp(char[] str,int begin,ArrayList<String> strings) {
-        if(begin >= (str.length-1)){
+        if(begin == (str.length-1)){
             String s = String.valueOf(str);
             if(!strings.contains(s)){
                 strings.add(s);
             }
         }else {
             for (int i = begin; i < (str.length); i++) {
-
-                swap(str,i,i+1);
-                PermutationHelp(str,i+1,strings);
-                swap(str,i,i+1);
+                if(i == begin || str[i] != str[begin]){
+                    swap(str,i,begin);
+                    PermutationHelp(str,begin+1,strings);
+                    swap(str,i,begin);
+                }
             }
         }
     }
