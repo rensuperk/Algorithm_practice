@@ -68,6 +68,7 @@
 ##### 22. [二叉树中和为某一值的路径](src/main/java/atOffer/FindPath.java)
 ##### 22. [复杂链表的复制](src/main/java/atOffer/Clone.java)
 ##### 22. [二叉搜索树与双向链表](src/main/java/atOffer/Convert.java)
+##### 22. [字符串的排列](src/main/java/atOffer/Permutation.java)
 
 
 

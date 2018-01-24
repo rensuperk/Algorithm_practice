@@ -23,7 +23,6 @@ public class Clone {
         b.random = e;
         d.random = b;
         RandomListNode clone1 = clone.Clone(a);
-
     }
     /**
      * 第一步把复制链表放入下个节点
