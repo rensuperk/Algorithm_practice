@@ -73,6 +73,7 @@
 ##### 28. [最小的K个数](src/main/java/atOffer/GetLeastNumbers_Solution.java)
 ##### 29. [连续子数组的最大和](src/main/java/atOffer/FindGreatestSumOfSubArray.java)
 ##### 30. [整数中1出现的次数（从1到n整数中1出现的次数）](src/main/java/atOffer/NumberOf1Between1AndN_Solution.java)
+##### 31. [把数组排成最小的数](src/main/java/atOffer/PrintMinNumber.java)
 
 
 
