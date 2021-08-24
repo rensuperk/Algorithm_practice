@@ -74,24 +74,12 @@ class LRUCache_146 {
         //lRUCache.get(1);    // 返回 -1 (未找到)
         //lRUCache.get(3);    // 返回 3
         //lRUCache.get(4);    // 返回 4
-        LRUCache_146 lRUCache146 = new LRUCache_146(2);
-        lRUCache146.put(2,1);
-        lRUCache146.put(3,2);
-        System.out.println(lRUCache146.get(3));
-        System.out.println(lRUCache146.get(2));
-        lRUCache146.put(4,3);
-        System.out.println(lRUCache146.get(2));
-        System.out.println(lRUCache146.get(3));
-        System.out.println(lRUCache146.get(4));
-
-
     }
     class DLinkedNode {
         private int key;
         private int value;
         private DLinkedNode prev;
         private DLinkedNode next;
-
         public DLinkedNode() {
         }
 
@@ -100,12 +88,16 @@ class LRUCache_146 {
             this.value = value;
         }
     }
-
+    //容量
     private int capacity;
+    //存储
     private Map<Integer, DLinkedNode> map = new HashMap<>();
+    //头和尾的虚节点,不用判断null
     private DLinkedNode head,tail;
 
     private void addToHead(DLinkedNode node) {
+        //将节点放入头节点的后面节点
+        //重定向4个指针
         node.prev = head;
         node.next = head.next;
         head.next.prev = node;
@@ -113,10 +105,13 @@ class LRUCache_146 {
     }
 
     private void remove(DLinkedNode node) {
+        //删除链表的节点,重定向两个节点
         node.next.prev = node.prev;
         node.prev.next = node.next;
     }
     private DLinkedNode removeTail(){
+        //删除尾部虚节点前面的那个节点
+        //返回删除的节点,用于map的删除
         DLinkedNode node = tail.prev;
         remove(node);
         return node;
@@ -124,6 +119,7 @@ class LRUCache_146 {
 
     public LRUCache_146(int capacity) {
         this.capacity = capacity;
+        //初始化两个虚节点
         head = new DLinkedNode();
         tail = new DLinkedNode();
         head.next = tail;
@@ -133,6 +129,7 @@ class LRUCache_146 {
     public int get(int key) {
         DLinkedNode node = map.get(key);
         if (node != null) {
+            //删除节点,添加到头部
             remove(node);
             addToHead(node);
             return node.value;
@@ -143,15 +140,18 @@ class LRUCache_146 {
     public void put(int key, int value) {
         DLinkedNode node = map.get(key);
         if (node != null) {
+            //如果已经存在,更新value值,删除节点添加到头部
             node.value = value;
             remove(node);
             addToHead(node);
             map.put(key,node);
             return;
         }
+        //如果不存在,新增节点添加都头部
         node = new DLinkedNode(key,value);
         addToHead(node);
         map.put(key, node);
+        //如果值大于容量,就删除尾部节点
         if (map.size() > capacity) {
             DLinkedNode remove = removeTail();
             map.remove(remove.key);
