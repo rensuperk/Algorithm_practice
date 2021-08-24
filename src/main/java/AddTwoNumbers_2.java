@@ -42,7 +42,6 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,12 +57,22 @@ class AddTwoNumbers_2 {
     public static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode head =null;
+        ListNode head = null;
         ListNode tail = null;
         int temp = 0;
         while (l1 != null || l2 != null) {
@@ -82,10 +91,10 @@ class AddTwoNumbers_2 {
                 sum = sum - 10;
             }
             //注意往后移动位置
-            if (head  == null) {
+            if (head == null) {
                 tail = new ListNode(sum);
                 head = tail;
-            }else{
+            } else {
                 tail.next = new ListNode(sum);
                 tail = tail.next;
             }
